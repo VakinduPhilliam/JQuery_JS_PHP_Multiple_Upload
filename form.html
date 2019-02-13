@@ -1,0 +1,12 @@
+<!-- images upload form -->
+<form method="post" id="uploadForm" enctype="multipart/form-data" action="upload.php">
+    <label>Choose Images</label>
+    <input type="file" name="images[]" id="images" multiple >
+    <input type="submit" name="submit" value="UPLOAD"/>
+</form>
+
+<!-- display upload status -->
+<div id="uploadStatus"></div>
+
+<!-- gallery view of uploaded images --> 
+<div class="gallery" id="imagesPreview"></div>
